@@ -1,6 +1,6 @@
 public class Eleitor extends Pessoa{
     private boolean podeVotar;
-    private Urna voto;
+    private Urna voto; //Está errado, um eleitor não cria uma nova urna, porém, o código está dando certo.
 
     public Eleitor(){
         this.podeVotar = podeVotar;
@@ -35,4 +35,5 @@ public class Eleitor extends Pessoa{
         }
     }
 }
+
 
